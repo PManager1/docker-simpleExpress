@@ -7,6 +7,7 @@ ENV CONTAINER_PATH /var/www/simple_express
 WORKDIR   $CONTAINER_PATH
 
 RUN npm install nodemon -g
+RUN npm install express -g
 
 EXPOSE 3000
 
